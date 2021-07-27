@@ -1,0 +1,138 @@
+    <style type="text/css">
+        a{
+            text-decoration: none;
+            color: hotpink;
+        }
+        .bp{
+            position: relative;
+            top: 50px;
+            left: 10%;
+        }
+    
+.photo{
+    width:20%; 
+    widows: 30%;
+}
+.intro{
+    widows:60%;
+    background-color: rgb(250, 241, 231);
+    background-size: 100% 100%;
+}
+ .content3{
+                padding-top:60px;
+                width: 100%;
+                margin: 11px 1;
+                background-size: 100% 100%;
+                height: 430px;
+            }
+        .container{
+            background-size: cover;
+            background-image: url(用户注册.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;   
+            width: 100%;
+            height: 850px;
+            margin:0px auto;
+        }
+        .header{
+            width:100%;
+            height:100px;
+            background-color: white;
+            color: rgb(187, 116, 187);
+            font-size: 60px;
+            font-weight: bold;
+            font-family: "MicrosoftJhengHei";
+            text-align: center;
+        }
+        .public-footer{
+            text-align: center;
+        } 
+        .zz{
+            position: relative;
+            top: 20px;
+            font-size: 30px;
+            color: gray;
+        }
+        .login{
+            position: absolute; 
+            top: 40%; 
+            left: 70%; 
+            margin: -150px 0 0 -150px; 
+            width: 500px; 
+            height: 450px;
+            background-color: white;
+        }
+        .login-header{
+            position: absolute;
+            width: 100%;
+            height: 55px;
+            font-size: 20px;
+            font-family:"MicrosoftJhengHei";
+            font-weight: bold;
+        }
+        .login-title{
+            position: relative;
+            float: left;
+            margin-left: 10px;
+            top: 20px;
+            left: 8px;
+            font-size: 30px;
+            color: grey;
+            width: 45%;
+        }
+        .login-switchlogin{
+            position: relative;
+            top: 30px;
+            left: 8px;
+            font-size: 20px;
+            font-weight: initial;
+            text-align: center;
+        }  
+        .login-body{
+            position: relative;
+            width: 465px;
+            height: 500px ;
+            top: 60px;
+            left: 20px
+        }
+        input{
+            position: relative;
+            margin-top: 45px;
+            margin-left: 10px;
+            width:300px;
+            height: 50px; 
+            font-size: 20px;        
+        }
+        .table-name{
+            margin-top: 60px;
+            margin-left: 5px;
+            font-size: 20px;
+            font-weight: bold;
+            float: left;
+            width: 80px;
+            height: 40px;
+            text-align: center;
+        }
+        .table-name1{
+            margin-top: 6px;
+            margin-left: 20px;
+            font-size: 15px;
+            font-weight: bold;
+            float: left;
+            width: 390px;
+            height: 40px;
+            text-align: center;
+        }
+        button{
+            width:298px;
+            height: 45px;
+            border: 0;
+            margin-top: 60px;
+            margin-left: 20%;
+            box-sizing: content-box;
+            background-color: hotpink;
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+        }
+    </style>

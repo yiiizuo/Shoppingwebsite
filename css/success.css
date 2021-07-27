@@ -1,0 +1,63 @@
+.bp{
+    position: relative;
+    top: 50px;
+    left: 10%;
+}
+.container{
+    background-size: cover;
+    background-attachment: fixed;   
+    width: 100%;
+    height: 850px;
+    margin:0px auto;
+}
+.header{
+    width:100%;
+    height:100px;
+    background-color: white;
+    color: rgb(187, 116, 187);
+    font-size: 60px;
+    font-weight: bold;
+    font-family: "MicrosoftJhengHei";
+    text-align: center;
+}
+.public-footer{
+    text-align: center;
+} 
+.zz{
+    position: relative;
+    top: 20px;
+    font-size: 30px;
+    color: gray;
+}
+.pay-success{
+    margin-top: 3%;
+    margin-left: 700px;
+    width: 30%; 
+    height: 600px;
+}
+.ps-icon{
+    margin-left: 10%;
+    width: 300px;
+    height: 250px;
+}
+.ps-table{
+    margin-top: 100px;
+    font-size: 25px;
+}
+.p1{
+    width: 300px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+img{
+    margin-left: 17%;
+    width: 200px;
+    height: 200px;
+}
+.icon{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+}

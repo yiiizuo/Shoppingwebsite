@@ -1,0 +1,168 @@
+ <style>
+  .pos-abs{
+	left: 0;
+                padding-top:20px;
+	bottom: 0;
+	width: 100%;
+	height: 26px;
+	line-height: 26px;
+	overflow: hidden;
+    margin-top: 0em;
+	font-size: 16px;
+	text-align: center;
+	color:darkviolet;font-style: normal;
+    }
+
+            .content{
+                width: 100%;
+                margin: 11px 0;
+                background-image: url(img/pink.png);
+                background-size: 100% 100%;
+                height: 160px;
+            }
+    .content1{
+                padding-top:50px;
+                width: 100%;
+                margin: 11px 1;
+                background-color: rgb(240, 206, 217);
+                background-size: 100% 100%;
+                height: 430px;
+            }
+    .content2{
+                padding-top:50px;
+                width: 100%;
+                margin: 11px 1;
+                background-color: rgb(253, 222, 253);
+                background-size: 100% 100%;
+                height: 430px;
+            }
+
+
+            .tb{
+	background-color: bisque;
+	padding: 5px 0px 5px 70px;
+	height: 20px;
+	border:2px solid bisque;
+}
+.top_left{
+	float: left;
+	width: auto;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+}
+.top_right{
+	float: right;
+	width: auto;
+	height: 20px;
+	line-height: 20px;
+	margin-right: 20px;
+}
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.top_right ul li{
+	text-decoration: none;
+	list-style: none;
+	width: 80px;
+	float:left;
+	font-size: 12px;
+}
+.tblogo{
+	float: left;
+	width: 300px;
+	height: 200px;
+	border:1px solid azure;
+}
+.serch{
+	float: left;
+	width: 500px;
+	height: 100px;
+	padding: 50px;
+	padding-top:70px;
+	padding-right:330px;
+
+.serch ul li{
+	float: left;
+	width:40px;
+	height:20px;
+	text-align: center;
+	line-height: 20px;
+	list-style:none;
+}
+.descode{
+	float: right;
+	width: 190px;
+	height: 200px;
+	border:1px solid azure;
+	padding-top: 50px;
+	text-align: center;
+}
+.spliter{
+
+	background-color: orange;
+	color:azure;
+	width: auto;
+	height: 20px;
+}
+.space{
+	float: left;
+	width: 20px;
+	height: 200px;
+	border:1px solid azure;
+}
+.list_shop{
+	padding-top:20px;
+	float: left;
+	width: 180px;
+	height: 480px;
+	border:1px solid red;
+	text-align: center;
+}
+.list_shop ul li{
+	list-style:none;
+	height:40px;
+}
+.list_img{
+	float: left;
+	width: 540px;
+	height: 480px;
+	border:1px solid azure;
+
+	padding-top:10px;
+	text-align: center;
+}
+.login{
+	float: right;
+	width: 256px;
+	height: 480px;
+	border:1px solid azure;
+	padding-top:16px;
+}
+.login div ul li{
+	float: left;
+	width: 84px;
+	height:20px;
+	line-height:20px;
+	text-align: center;
+	list-style:none;
+}
+#repoter{
+	padding:5px;
+	
+}
+#repoter ul li{
+	list-style:none;
+	float:left;
+	width:48px;
+}
+#message{
+	padding:2px;
+}
+#message ul li{
+	list-style:none;
+	color:red;
+	width:auto;
+}
+        </style>

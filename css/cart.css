@@ -1,0 +1,124 @@
+.bp{
+    position: relative;
+    top: 50px;
+    left: 10%;
+}
+.container{
+    background-size: cover;
+    background-attachment: fixed;   
+    width: 100%;
+    height: 850px;
+    margin:0px auto;
+}
+.header{
+    width:100%;
+    height:100px;
+    background-color: white;
+    color: rgb(187, 116, 187);
+    font-size: 60px;
+    font-weight: bold;
+    font-family: "MicrosoftJhengHei";
+    text-align: center;
+}
+.public-footer{
+    text-align: center;
+} 
+.zz{
+    position: relative;
+    top: 20px;
+    font-size: 30px;
+    color: gray;
+}
+.public-shop-cart > .content {
+    width: 1200px;
+    background-color: #fff;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+.public-shop-cart > .content > span{
+    font-size: 20px;
+    color: hotpink;
+    font-weight: bold;
+    border-bottom: 1px solid hotpink;
+    height: 30px;
+    width: 100px;
+    padding: 3px;
+}
+.public-shop-cart > .content > .cart-title{
+    height: 32px;
+    background-color: #f3f3f3;
+    border: 1px solid #eee;
+    display: grid;
+    grid-template-columns: 100px 1fr 100px 120px 100px 100px;
+    align-items: center;
+    padding-left: 10px;
+}
+.public-shop-cart > .content > .cart-detail{
+    background-color: #ffe8f8;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 5px;
+    display: grid;
+    grid-template-columns: 40px 1fr 100px 120px 100px 100px;
+    align-items: center;
+}
+.public-shop-cart > .content > div.cart-detail:last-of-type{
+    border-bottom: none;
+}
+.cart-detail > .cart-title{
+    display: flex;
+}
+.cart-title > div{
+    width: 300px;
+    padding: 0 15px;
+    display: flex;
+    flex-flow: column wrap;
+}
+a:hover{
+    color: hotpink;
+}
+.cart-title >img{
+    width: 80px;
+    height: 80px;
+}
+.cart-number {
+    display: flex;
+}
+.cart-number >input{
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #aaa;
+}
+.cart-number > span{
+    width: 20px;
+    height: 20px    ;
+    border: 1px solid #aaa;
+    font-size: 15px;
+    text-align: center;
+}
+.cart-btn{
+    margin-top: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border: 1px solid #ddd;
+}
+.cart-btn > span:last-of-type{
+    font-size: 20px;
+    color: hotpink;
+    margin: 0 20px;
+    font-weight: bold;
+}
+.cart-btn > .btn{
+    width: 100px;
+    height: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    background-color: hotpink;
+}
